@@ -1,0 +1,11 @@
+[package]
+name = "chat-server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = { version = "0.4", features = ["clock"] }
+tokio = { version = "1", features = ["full"] }
+tracing-appender = "0.2"
+tracing-subscriber = { version = "0.3" }
+tracing = "0.1"
